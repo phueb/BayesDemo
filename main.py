@@ -10,15 +10,13 @@ A hypothesis simply specifies the probability that button A results in a reward.
 import random
 
 REWARD_PROB_BTN_A = 0.8
-NUM_TRIALS = 50
+NUM_TRIALS = 10
 
 # the likelihood is the probability that button A produces a reward, given a hypothesis.
 # note: this is equivalent to "the probability that button A is the best button, in the long run"
 H2LIKELIHOOD = {
-    'H1': 1.0,
     'H2': 0.8,
     'H3': 0.5,
-    'H4': 0.0,
 }
 
 # uniform prior
